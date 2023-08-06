@@ -3,19 +3,21 @@ Tkinter GUI project for timekeeping
 
 A simple alarm clock GUI project that I worked on to improve coding habits,improve my knowledge of tkinter and pygame modules, and utilize a database. When complete, this will be a fully functioning program similar to the "Clock" app on Android or its iOS equivalent. It has support for a local digital clock and alarms at the moment. Further improvements to the alarms is my next task. I seek to add customizable messages, sounds, and repeat settings.
 
-![Alarms_app](Screenshot/alarm_1.png)
-![Alarms_app](Screenshot/alarm_1.png)
+![Alarms_app](alarm-clock/Screenshot/alarm_1.png)
+![Alarms_app](alarm-clock/Screenshot/alarm_2.png)
+![Alarms_app](alarm-clock/Screenshot/alarm_app_2.png)
 
 
 ## Alarms
 You can set alarms to go off at whatever time you set. You can also deactivate the alarm so it will not go off.
 
-![Alarms](https://user-images.githubusercontent.com/19376473/89493722-c93a8f80-d782-11ea-9c1f-f29d668a00fa.png)
+![Alarms](alarm-clock/Screenshot/alarm_app_1.png)
+![Alarms_app](alarm-clock/Screenshot/alarm_4.png)
 
 ## Clock
 This digital clock shows the current local time in HH:MM:SS format.
 
-![Clock](https://user-images.githubusercontent.com/19376473/89493723-c93a8f80-d782-11ea-9707-5d195b1b5eeb.png)
+![Clock](alarm-clock/Screenshot/alarm_clock.png)
 
 
 ## How to Use (From Source Code)
