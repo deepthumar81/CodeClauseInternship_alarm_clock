@@ -11,12 +11,20 @@ class Clock(tk.Frame):
         self.date = strftime("%a, %b, %d", localtime())
         self.kill = False
 
-        self.time_label = tk.Label(self, text=self.time,
-                                   font=Font(family='Helvetica', size=36,
-                                             weight='bold'))
-        self.date_label = tk.Label(self, text=self.date,
-                                   font=Font(family='Helvetica', size=27,
-                                             weight='bold'))
+        self.time_label = tk.Label(
+            self,
+            text=self.time,
+            font=Font(family="Arial", size=24, weight="bold"),
+            bg="white",
+            fg="blue",
+        )
+        self.date_label = tk.Label(
+            self,
+            text=self.date,
+            font=Font(family="Arial", size=20, weight="bold"),
+            bg="white",
+            fg="green",
+        )
         self.time_label.pack(side=tk.TOP, fill=tk.BOTH, expand=1)
         self.date_label.pack(side=tk.TOP, fill=tk.BOTH, expand=1)
         self.thread = Thread(target=self.update, daemon=True)
@@ -30,6 +38,7 @@ class Clock(tk.Frame):
             self.time_label["text"] = self.time
             self.date_label["text"] = self.date
             sleep(1)
+
 
 if __name__ == "__main__":
     root = tk.Tk()
